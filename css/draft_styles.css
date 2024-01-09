@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 15px 20px;
+}
+
+.navbar-logo {
+    color: #000000;
+    text-decoration: none;
+}
+
+.navbar-menu {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-item {
+    margin-left: 20px;
+}
+
+.navbar-link, .navbar-button {
+    color: #000000;
+    text-decoration: none;
+}
+
+.navbar-button {
+    background-color: #4CAF50;
+    border-radius: 5px;
+    padding: 5px 10px;
+}

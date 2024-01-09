@@ -1,0 +1,493 @@
+/*
+====================================
+large Screen - Others
+====================================
+*/
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+
+	/*=== exploration area start ===*/
+
+	.exploration-item h2 {
+	    font-size: 40px;
+	}
+
+	.exploration-item p {
+	    font-size: 21px;
+	}
+
+	/*=== getting area start ===*/
+
+	.getting-area .container {
+		max-width: 960px;
+	}
+
+	.getting-item2 p {
+	    margin-bottom: 70px;
+	}
+
+	.getting-carousel.owl-theme .owl-dots {
+	    bottom: 10px;
+	}
+
+	/*=== achievement area start ===*/
+
+	.achievement-item2 h2 {
+	    font-size: 40px;
+	}
+
+	/*=== footer area start ===*/
+
+	.footer-item2 {
+	    margin-top: 100px;
+	}
+
+	/*=== filter area start ===*/
+
+	.filter-item {
+	    width: 320px;
+	}
+
+	.filter-item-inner2 h2 {
+	    font-size: 16px;
+	}
+
+	.filter-item2 {
+	    width: calc(100% - 320px);
+	    padding-left: 35px;
+	}
+
+	.filter-item2 .product-item2 {
+	    margin-bottom: 30px;
+	}
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+
+	.header-area {
+		background-size: auto;
+	}
+
+	.header-carousel {
+	    padding-top: 100px;
+	}
+
+	.header-item2 {
+	    padding-bottom: 120px;
+	}
+
+	.header-item2 h2 {
+	    font-size: 42px;
+	}
+
+	.header-item2 p {
+	    margin-bottom: 40px;
+	}
+
+	.header-carousel .owl-nav button.owl-next, .header-carousel .owl-nav button.owl-prev {
+	    width: 40px;
+	    height: 40px;
+	}
+
+	.header-carousel .owl-nav button.owl-next {
+	    right: -35px;
+	}
+
+	.header-carousel .owl-nav button.owl-prev {
+	    left: -35px;
+	}
+
+	/*=== exploration area start ===*/
+
+	.exploration-item-inner {
+		width: 485px;
+	}
+
+	.exploration-item h2 {
+	    font-size: 28px;
+	}
+
+	.exploration-item p {
+	    font-size: 18px;
+	}
+
+	.exploration-item p br {
+		display: none;
+	}
+
+	/*=== company area start ===*/
+
+	.company-area {
+	    padding: 100px 0;
+	}
+
+	.company-item {
+	    margin-bottom: 60px;
+	}
+
+	/*=== getting area start ===*/
+
+	.getting-area {
+	    padding: 100px 0;
+	}
+
+	.getting-area .container {
+		max-width: 720px;
+	}
+
+	.getting-item2 h2 {
+	    font-size: 28px;
+	}
+
+	.getting-item2 p {
+		font-size: 16px;
+	    margin-bottom: 30px;
+	}
+
+	.getting-carousel.owl-theme .owl-dots {
+	    bottom: 0px;
+	}
+
+	/*=== product area start ===*/
+
+	.product-area {
+	    padding: 100px 0;
+	}
+
+	/*=== achievement area start ===*/
+
+	.achievement-area {
+		padding: 72px 0 57px;
+	}
+
+	.achievement-area .row {
+	    --bs-gutter-x: 32px;
+	}
+
+	.achievement-item2 h2 {
+	    font-size: 28px;
+	    margin-bottom: 20px;
+	}
+
+	.achievement-item2 ul li {
+	    width: 50%;
+	    font-size: 36px;
+	    margin-bottom: 15px;
+	}
+
+	/*=== footer area start ===*/
+
+	.footer-item2 {
+	    margin-top: 40px;
+	}
+
+	/*=== filter area start ===*/
+
+	.filter-item {
+	    width: 300px;
+	}
+
+	.filter-item-inner2 h2 {
+	    font-size: 15px;
+	}
+
+	.filter-item2 {
+	    width: calc(100% - 300px);
+	    padding-left: 25px;
+	}
+
+	.filter-item2 .product-item2 {
+	    margin-bottom: 25px;
+	}
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+@media screen and (max-width: 767px) {	
+
+
+	.header-area {
+		background-image: none;
+	}
+
+	.header-carousel {
+	    padding-top: 70px;
+	}
+
+	.header-item2 {
+	    padding-bottom: 70px;
+	}
+
+	.header-item2 h2 {
+	    font-size: 32px;
+	}
+
+	.header-item2 p {
+	    font-size: 18px;
+	    margin-bottom: 30px;
+	}
+
+	.header-item2 p span {
+	    display: inline-block;
+	}
+
+	.header-carousel .owl-nav button.owl-next, .header-carousel .owl-nav button.owl-prev {
+	    font-size: 16px;
+	    transform: translateY(-100%);
+	    width: 30px;
+	    height: 30px;
+	}
+
+	.header-carousel .owl-nav button.owl-next {
+	    right: -15px;
+	}
+
+	.header-carousel .owl-nav button.owl-prev {
+	    left: -15px;
+	}
+
+	/*=== exploration area start ===*/
+
+	.exploration-area {
+	    padding: 70px 0;
+	}
+
+	.exploration-item {
+	    flex-direction: column;
+	}
+
+	.exploration-item h2 {
+	    font-size: 28px;
+	}
+
+	.exploration-item p {
+	    font-size: 18px;
+	    margin-bottom: 30px;
+	}
+
+	.exploration-item p br {
+		display: none;
+	}
+
+	/*=== company area start ===*/
+
+	.company-area {
+	    padding: 70px 0 40px;
+	}
+
+	.company-item {
+	    margin-bottom: 40px;
+	}
+
+	.company-item h2 {
+	    font-size: 28px;
+	}
+
+	.company-item p {
+	    font-size: 18px;
+	}
+
+	.company-item2 {
+	    padding: 30px 15px;
+	}
+
+	.company-item2-inner {
+	    min-height: 90px;
+	}
+
+	/*=== getting area start ===*/
+
+	.getting-area {
+	    padding: 70px 0;
+	}
+
+	.getting-item2 {
+		padding-top: 30px;
+	}
+
+	.getting-item2 h2 {
+	    font-size: 28px;
+	}
+
+	.getting-item2 p {
+	    margin-bottom: 30px;
+	}
+
+	.getting-carousel.owl-theme .owl-dots {
+	    bottom: 0px;
+	}
+
+	/*=== client area start ===*/
+
+	.client-area {
+	    padding: 70px 0;
+	}
+
+	/*=== product area start ===*/
+
+	.product-area {
+	    padding: 70px 0;
+	}
+
+	.product-area .row {
+	    --bs-gutter-x: 20px;
+	}
+
+	.product-area .company-item {
+	    margin-bottom: 40px;
+	}
+
+	.product-item2 {
+	    margin-bottom: 40px;
+	}
+
+	.product-item2 a {
+	    font-size: 16px;
+	}
+
+	.product-item2 a i {
+	    font-size: 14px;
+	    margin-top: 6px;
+	    margin-left: 10px;
+	}
+
+	.product-item3 {
+	    margin-top: 20px;
+	}
+
+	/*=== achievement area start ===*/
+
+	.achievement-area {
+	    padding: 72px 0 52px;
+	}
+
+	.achievement-item2 {
+		padding-top: 70px;
+	}
+
+	.achievement-item2 h2 {
+	    font-size: 32px;
+	    margin-bottom: 30px;
+	}
+
+	.achievement-item2 h2 br {
+		display: none;
+	}
+
+	.achievement-item2 ul li {
+	    font-size: 36px;
+	    width: 50%;
+	    margin-bottom: 20px;
+	}
+
+	.achievement-item2 ul li span {
+	    font-size: 16px;
+	}
+
+	/*=== footer area start ===*/
+
+	.footer-item2 {
+	    margin-top: 20px;
+	}
+
+	/*=== product page start ===*/
+
+	.header-area-inner2 {
+	    padding: 70px 0;
+	}
+
+	.find-item h2 {
+	    font-size: 32px;
+	}
+
+	.find-item p {
+	    margin-bottom: 35px;
+	}
+
+	.find-item form {
+	    margin: 0 auto 30px;
+	}
+
+	.find-item form div {
+	    width: 100%;
+	    padding-right: 0px;
+	    margin-bottom: 20px;
+	}
+
+	.find-item form div i {
+	    right: 14px;
+	}
+
+	.find-item form button {
+	    width: 100%;
+	}
+
+	.find-item ul {
+	    justify-content: flex-start;
+	    margin: 0 -8px;
+	}
+
+	.find-item ul li {
+		padding: 0 8px;
+	}
+
+	.find-item ul li a {
+	    padding: 9px 20px;
+	}
+
+	/*=== filter area start ===*/
+
+	.filter-area {
+	    padding: 45px 0 40px;
+	}
+
+	.filter-item {
+	    width: 100%;
+	}
+
+	.filter-item-inner2 h2 {
+	    font-size: 16px;
+	}
+
+	.filter-item2 {
+	    width: 100%;
+	    padding-left: 0;
+	    padding-top: 35px;
+	}
+
+
+
+
+}
+
+
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+
+	/*=== getting area start ===*/
+
+	.getting-area .container {
+	    max-width: 540px;
+	}
+
+
+}
